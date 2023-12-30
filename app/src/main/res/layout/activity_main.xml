@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity"
+    tools:ignore="MissingDefaultResource">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="333dp"
+        android:layout_height="118dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="3dp"
+        android:background="@drawable/redborders"
+        android:fontFamily="@font/aclonica"
+        android:paddingTop="25dp"
+        android:text="TIC TAC TOE"
+        android:textAlignment="center"
+        android:textColor="#F20404"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,TextSizeCheck" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="324dp"
+        android:layout_height="623dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="17dp"
+        android:background="@android:color/system_accent1_900"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="NewApi">
+
+        <Button
+            android:id="@+id/startGameBtn"
+            android:layout_width="367dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="119dp"
+            android:backgroundTint="#030303"
+            android:fontFamily="@font/aclonica"
+            android:text="Start game"
+            android:textColor="#F20404"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/addNewPlayer"
+            tools:ignore="HardcodedText,VisualLintBounds,VisualLintButtonSize" />
+
+        <TextView
+            android:id="@+id/nameSelectLabel2"
+            android:layout_width="204dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="101dp"
+            android:fontFamily="@font/aclonica"
+            android:paddingStart="1sp"
+            android:paddingTop="4sp"
+            android:text="@string/player_2_select_name"
+            android:textAlignment="textStart"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinner1"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="312dp"
+            android:layout_height="31dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="27dp"
+            android:background="@drawable/redborders"
+            android:fontFamily="@font/almendra"
+            android:text="@string/existing_player_select_name"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="23sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="285dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="36dp"
+            android:backgroundTint="#D32020"
+            android:backgroundTintMode="screen"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nameSelectLabel1"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/nameSelectLabel1"
+            android:layout_width="202dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="122dp"
+            android:fontFamily="@font/aclonica"
+            android:paddingStart="2sp"
+            android:paddingTop="4sp"
+            android:text="@string/player_1_select_name"
+            android:textAlignment="textStart"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            tools:ignore="RtlSymmetry" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="282dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="23dp"
+            android:backgroundTint="#B11B1B"
+            android:backgroundTintMode="screen"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nameSelectLabel2" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="273dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="25dp"
+            android:paddingStart="3sp"
+            android:text="@string/not_on_the_list_click_the_button_below"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinner2"
+            tools:ignore="RtlSymmetry" />
+
+        <Button
+            android:id="@+id/addNewPlayer"
+            android:layout_width="246dp"
+            android:layout_height="54dp"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="39dp"
+            android:backgroundTint="#030303"
+            android:fontFamily="@font/aclonica"
+            android:text="@string/add_new_player"
+            android:textColor="#F20404"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            tools:ignore="VisualLintButtonSize,VisualLintBounds" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

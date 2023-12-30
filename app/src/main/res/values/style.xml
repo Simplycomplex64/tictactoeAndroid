@@ -1,0 +1,8 @@
+<resources>
+    <style name="WhiteHintEditText">
+        <item name="android:hint">@string/enter_player_name</item>
+        <item name="android:textColorHint">#FFFFFF</item>
+    </style>
+</resources>
+
+

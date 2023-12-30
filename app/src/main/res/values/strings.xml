@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">androidStruggle</string>
+    <string name="player_2_select_name">Player 2 select name :</string>
+    <string name="existing_player_select_name">Existing player select name :</string>
+    <string name="player_one_select_name">Player one select name :</string>
+    <string name="player_1_select_name">Player 1 select name :</string>
+    <string name="not_on_the_list_click_the_button_below">Not on the list? click the button below :</string>
+    <string name="enter_player_name">Enter player name</string>
+    <string name="save_player">Save player</string>
+    <string name="tic_tac_toe">TIC TAC TOE</string>
+    <string name="add_new_player">Add new player</string>
+    <string name="cancel">Cancel</string>
+    <string name="reset_board">Reset board</string>
+    <string name="main_menu">Main menu</string>
+    <string name="score_x">Score X :</string>
+    <string name="reset">Reset</string>
+    <string name="error_display_messages">Error display messages</string>
+    <string name="score_o">Score O :</string>
+
+    <string name="score_x2">Score X: %d</string>
+    <string name="score_o2">Score O: %d</string>
+    <string name="x">X</string>
+    <string name="o">O</string>
+
+
+    <array name="player_names">
+        <item>Player 1</item>
+        <item>Player 2</item>
+    </array>
+
+</resources>
+
+
